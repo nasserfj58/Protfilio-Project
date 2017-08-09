@@ -1,0 +1,54 @@
+#my-projects-div{
+	margin: 0 auto;
+	width: 100%;
+	
+}
+.projects-img{
+	width:100%;
+	height: 20vh;
+	align-content:left;
+}
+.p1{
+	width: 100%;
+	text-align:center;
+	
+}
+footer{
+	padding: 5px;
+	font-size: 11px;
+}
+#icon{
+	width:25%;
+}
+#logo{
+	align-content:left;
+}
+#projects-header{
+	text-align: center;
+}
+#my-info{
+	text-align: right;
+}
+#web-img{
+height: 68vh;
+width: 100%;
+		
+}
+.box{
+	display: block;
+	height: 20vh;
+}
+
+hr.style1{
+	border-top: 1px solid #8c8b8b;
+}
+body {
+  font-size: 30px;
+  font-family: sans-serif;
+  color: #555;
+  width: 100%;
+  margin: 0 auto;
+}
+#container{
+	font-size: 15px;
+}
