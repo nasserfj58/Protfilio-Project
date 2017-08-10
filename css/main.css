@@ -1,3 +1,7 @@
+.headr-h{
+	font-family: 'Josefin Sans', sans-serif;
+
+}
 #my-projects-div{
 	margin: 0 auto;
 	width: 100%;
@@ -18,7 +22,7 @@ footer{
 	font-size: 11px;
 }
 #icon{
-	width:25%;
+	width:10vw;
 }
 #logo{
 	align-content:left;
@@ -28,6 +32,7 @@ footer{
 }
 #my-info{
 	text-align: right;
+	
 }
 #web-img{
 height: 68vh;
@@ -44,11 +49,28 @@ hr.style1{
 }
 body {
   font-size: 30px;
-  font-family: sans-serif;
+  font-family: 'Indie Flower', cursive;
   color: #555;
   width: 100%;
   margin: 0 auto;
 }
 #container{
 	font-size: 15px;
+}
+@media only screen and (min-width:200px) and (max-width: 220px) {
+	#icon{
+		width: 70%;
+		
+	}
+	#web-img{
+		height: 70vh;
+		width: 50wh;	
+}
+#headr-h-h1{
+	width: 70%;
+}
+#headr-h-h2{
+	width: 70%;
+}	
+
 }

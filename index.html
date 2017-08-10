@@ -3,7 +3,8 @@
 	<head>
 	  <meta charset="utf-8">
 	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 	  <link href="css/main.css" rel="stylesheet">
 	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >	
 	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -12,16 +13,16 @@
 	  <title>My Resume</title>	
 	</head>
 	<body>
-		<div class="container">
+		<div id="my-container" class="container">
 			<header>
 				<div class="row">
-					<div id="logo" class="col-md-4">
-					<img id="icon" src="img/computer-and-books-studying-tools.svg" alt="Computer Icon" class="img-responsive" style="margin-top: 13px">
+					<div id="logo" class="col-xs-4">
+					<img id="icon" src="img/computer-and-books-studying-tools.svg" alt="Computer Icon" class="img-responsive" >
 					</div>
-					<div id="my-info" class="col-md-8">
+					<div id="my-info" class="col-xs-8">
 					<!-- To insert the icon: -->
-						<h1>Nasser Aljuraysi</h1>
-						<h3>Front-End Developer</h3>
+						<h2 id="headr-h-h1"class="headr-h">Nasser Aljuraysi</h2>
+						<h4 id="headr-h-h2"class="headr-h">Front-End Developer</h4>
 					</div>
 			  </div>
 			  <div class="row">
@@ -30,7 +31,7 @@
 			</header>
 			<div class="row">
 				<div class="col-md-4">
-						<img id="web-img"alt="Web devlopment Image" src="img/web-devlopment-image.jpg" class="img-responsive">
+						<img id="web-img" alt="Web devlopment Image" src="img/small.jpg" class="img-responsive" srcset="img/small.jpg 500w, img/meduim.jpg 1000w, img/large.jpg 1024w">
 					</div>
 				<section>	
 					<article>
@@ -88,7 +89,7 @@
 								</div>
 								</div>	
 								<div class="row">
-								<div class=col-md-4>	
+								<div class="col-md-4">	
 								<div  class="panel panel-default">
                     				<div class="panel-heading" role="tab" id="heading-four">
                       				<h4 class="panel-title">
@@ -104,7 +105,7 @@
                     				</div>
                   				</div>
 								</div>	
-								<div class=col-md-4>
+								<div class="col-md-4">
 								<div  class="panel panel-default">
                     				<div class="panel-heading" role="tab" id="heading-five">
                       				<h4 class="panel-title">
@@ -120,7 +121,7 @@
                     				</div>
                   				</div>
 								</div>
-								<div class=col-md-4>	
+								<div class="col-md-4">	
 								<div  class="panel panel-default">
                     				<div class="panel-heading" role="tab" id="heading-six">
                       				<h4 class="panel-title">
@@ -145,23 +146,24 @@
 			  <div class="row">
 				  <h3 id="projects-header">My Projects</h3>
 				  <div id="course-projects-div" class="">
-					  <div id="Animal-trading" class="col-md-4 p1">
-						  <img class="projects-img" alt="github logo" src="img/github-logo.svg">
+					  <div id="Animal-trading" class="col-xs-4 p1">
+						  <a href="https://github.com/nasserfj58/Animal_Trading_Card.git"><img class="projects-img" alt="github logo" src="img/github-logo.svg"> </a>
 						  <div class="p1">
-						  <p> Animal Trading Project<br> <a href="https://github.com/nasserfj58/Animal_Trading_Card.git">Github Repo</a></p>
+						  <p> Animal Trading</p>
 						  </div>
 					  </div>
-					  <div id="responsive-project p1" class="col-md-4">
-						  <img class="projects-img" alt="github logo" src="img/github-logo.svg">
+					  <div id="Protfilio p1" class="col-xs-4">
+						  <a href="https://github.com/nasserfj58/Protfilio-Project.git">
+							  <img class="projects-img" alt="github logo" src="img/github-logo.svg"></a>
 						  <div class="p1">
-						  <p>Build a Protfilio Project <br><a href="">Github Repo</a></p>
+						  <p>Protfilio</p>
 						  </div>	  
 						  
 					  </div>
-					  <div id="p3" class="col-md-4 p1">
-						  <img class="projects-img" alt="github logo" src="img/github-logo.svg">
+					  <div  class="col-xs-4 p1">
+						  <img id="Resume" class="projects-img" alt="github logo" src="img/github-logo.svg">
 						  <div class="p1">
-						  <p>Online Resume Project<br> <a href="">Not yet Implemented</a></p>
+						  <p>Resume</p>
 						  </div>  
 					  </div>
 				  </div>
@@ -173,6 +175,11 @@
 				  <div class="">Jpeg img by Blossomstar/<a href="http://www.freepik.com">Freepik</a></div>
 				  </footer>
 			</div>
-		</div>	
+		</div>
+		<script>
+			$('#Resume').click(function(){
+				alert("This Project not yet Implemented");
+			});
+		</script>
 	</body>
 </html>
