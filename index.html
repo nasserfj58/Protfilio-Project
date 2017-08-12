@@ -3,13 +3,12 @@
 	<head>
 	  <meta charset="utf-8">
 	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
 	  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 	  <link href="css/main.css" rel="stylesheet">
 	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >	
-	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>	
-	  <script src="js/main.js"></script>
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" async></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous" async></script>
 	  <title>My Resume</title>	
 	</head>
 	<body>
@@ -17,126 +16,126 @@
 			<header>
 				<div class="row">
 					<div id="logo" class="col-xs-4">
-					<img id="icon" src="img/computer-and-books-studying-tools.svg" alt="Computer Icon" class="img-responsive" >
+						<img id="icon" src="img/computer-and-books-studying-tools.svg" alt="Computer Icon" class="img-responsive" >
 					</div>
 					<div id="my-info" class="col-xs-8">
-					<!-- To insert the icon: -->
-						<h2 id="headr-h-h1"class="headr-h">Nasser Aljuraysi</h2>
-						<h4 id="headr-h-h2"class="headr-h">Front-End Developer</h4>
+						<h2 id="headr-h-h1" class="headr-h">Nasser Aljuraysi</h2>
+						<h4 id="headr-h-h2" class="headr-h">Front-End Developer</h4>
 					</div>
-			  </div>
-			  <div class="row">
-					<hr class="style1">
+			    </div>
+			  	<div class="row">
+					<hr id="style1" class="col-md-12">
 				</div>
 			</header>
 			<div class="row">
-				<div class="col-md-4">
-						<img id="web-img" alt="Web devlopment Image" src="img/small.jpg" class="img-responsive" srcset="img/small.jpg 500w, img/meduim.jpg 1000w, img/large.jpg 1024w">
+					<div class="col-md-4">
+							<img id="web-img" alt="Web devlopment Image" sizes="(min-width:640px) 1420px, 320px" src="img/small.jpg" class="img-responsive" srcset="img/small.jpg 500w, img/meduim.jpg 1000w, img/large.jpg 1024w">
 					</div>
-				<section>	
-					<article>
-						<div id="container">
-							<div  class="col-md-8" id="aside-nav">
-								<h3>SKILLS</h3>
-								<div class="row">	
-								<div class="col-md-4">
-								<div  class="panel panel-default">
-                    				<div class="panel-heading" role="tab" id="heading-one">
-                      				<h4 class="panel-title">
-                        			<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-one" aria-expanded="false" aria-controls="collapse-one">
-                          				HTML
-                        			</a>
-                      				</h4>
-                    				</div>
-                    				<div id="collapse-one" class="panel-collapse collapse box" role="tabpanel">
-                    					<div class="panel-body" >
-                      						<p class="text-uppercase text-capitalize">I can structure a wep-page,use html 5 elements correctly.</p>
-                    					</div>
-                    				</div>
-                  				</div>
-								</div>
-								<div class="col-md-4">
-								<div  class="panel panel-default">
-                    				<div class="panel-heading" role="tab" id="heading-two">
-                      				<h4 class="panel-title">
-                        			<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-two" aria-expanded="false" aria-controls="collapse-two">
-                          				CSS
-                        			</a>
-                      				</h4>
-                    				</div>
-                    				<div id="collapse-two" class="panel-collapse collapse box" role="tabpanel">
-                    					<div class="panel-body">
-                      						<p class="text-uppercase text-capitalize">I can create and use a style for web-pages.</p>
-                    					</div>
-                    				</div>
-                  				</div>
-		                        </div>
-								<div class="col-md-4">
-								<div  class="panel panel-default">
-                    				<div class="panel-heading" role="tab" id="heading-three">
-                      				<h4 class="panel-title">
-                        			<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-three" aria-expanded="false" aria-controls="collapse-three">
-                          				Javascript
-                        			</a>
-                      				</h4>
-                    				</div>
-                    				<div id="collapse-three" class="panel-collapse collapse box" role="tabpanel">
-                    					<div class="panel-body box">
-                      						<p class="text-uppercase text-capitalize">I can make a web-page alive and intractive by appling java-script to it.</p>
-                    					</div>
-                    				</div>
-                  				</div>
-								</div>
+					<section id="main-section">
+						<h2 class="headr-h">Portfolio</h2>
+						<article>
+							<div id="container">
+								<div  class="col-md-8" id="aside-nav">
+									<h3 class="headr-h">SKILLS</h3>
+									<div class="row">	
+										<div class="col-md-4">
+											<div  class="panel panel-default" role=tablist>
+												<div class="panel-heading" role="tab" id="heading-one">
+													<h4 class="panel-title">
+														<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-one" aria-expanded="false" aria-controls="collapse-one">
+															HTML
+														</a>
+													</h4>
+												</div>
+												<div id="collapse-one" class="panel-collapse collapse box" role="tabpanel">
+													<div class="panel-body" >
+														<p class="text-uppercase text-capitalize">I can structure a wep-page,use html 5 elements correctly.</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									<div class="col-md-4">
+										<div  class="panel panel-default" role="tablist">
+											<div class="panel-heading" role="tab" id="heading-two">
+												<h4 class="panel-title">
+													<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-two" aria-expanded="false" aria-controls="collapse-two">
+													CSS
+													</a>
+												</h4>
+											</div>
+											<div id="collapse-two" class="panel-collapse collapse box" role="tabpanel">
+												<div class="panel-body">
+													<p class="text-uppercase text-capitalize">I can create and use a style for web-pages.</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div  class="panel panel-default" role="tablist">
+											<div class="panel-heading" role="tab" id="heading-three">
+												<h4 class="panel-title">
+													<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-three" aria-expanded="false" aria-controls="collapse-three">
+														Javascript
+													</a>
+												</h4>
+											</div>
+											<div id="collapse-three" class="panel-collapse collapse box" role="tabpanel">
+												<div class="panel-body box">
+													<p class="text-uppercase text-capitalize">I can make a web-page alive and intractive by appling java-script to it.</p>
+												</div>
+											</div>
+										</div>
+									</div>
 								</div>	
 								<div class="row">
-								<div class="col-md-4">	
-								<div  class="panel panel-default">
-                    				<div class="panel-heading" role="tab" id="heading-four">
-                      				<h4 class="panel-title">
-                        			<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-four" aria-expanded="false" aria-controls="collapse-four">
-                          				Jquery
-                        			</a>
-                      				</h4>
-                    				</div>
-                    				<div id="collapse-four" class="panel-collapse collapse box" role="tabpanel">
-                    					<div class="panel-body">
-                      						<p class="text-uppercase text-capitalize">I can use Jquery Libarary methods to do awesome stuff.</p>
-                    					</div>
-                    				</div>
-                  				</div>
-								</div>	
-								<div class="col-md-4">
-								<div  class="panel panel-default">
-                    				<div class="panel-heading" role="tab" id="heading-five">
-                      				<h4 class="panel-title">
-                        			<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-five" aria-expanded="false" aria-controls="collapse-five">
-                          				Bootstrap
-                        			</a>
-                      				</h4>
-                    				</div>
-                    				<div id="collapse-five" class="panel-collapse collapse box" role="tabpanel">
-                    					<div class="panel-body">
-                      						<p class="text-uppercase text-capitalize">I can use bootstrap grid system and bootstrap components to meet my style needs.</p>
-                    					</div>
-                    				</div>
-                  				</div>
-								</div>
-								<div class="col-md-4">	
-								<div  class="panel panel-default">
-                    				<div class="panel-heading" role="tab" id="heading-six">
-                      				<h4 class="panel-title">
-                        			<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-six" aria-expanded="false" aria-controls="collapse-six">
-                          				Image Optmization
-                        			</a>
-                      				</h4>
-                    				</div>
-                    				<div id="collapse-six" class="panel-collapse collapse box" role="tabpanel">
-                    					<div class="panel-body">
-                      						<p class="text-uppercase text-capitalize">I can make a an image responisive for different screen-sizes and slow-internet connictions.</p>
-                    					</div>
-                    				</div>
-                  				</div>
-								</div>
+									<div class="col-md-4">	
+										<div  class="panel panel-default" role="tablist">
+											<div class="panel-heading" role="tab" id="heading-four">
+												<h4 class="panel-title">
+													<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-four" aria-expanded="false" aria-controls="collapse-four">
+														Jquery
+													</a>
+												</h4>
+											</div>
+											<div id="collapse-four" class="panel-collapse collapse box" role="tabpanel">
+												<div class="panel-body">
+													<p class="text-uppercase text-capitalize">I can use Jquery Libarary methods to do awesome stuff.</p>
+												</div>
+											</div>
+										</div>
+									</div>	
+									<div class="col-md-4">
+										<div  class="panel panel-default" role="tablist">
+											<div class="panel-heading" role="tab" id="heading-five">
+												<h4 class="panel-title">
+													<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-five" aria-expanded="false" aria-controls="collapse-five">
+														Bootstrap
+													</a>
+												</h4>
+											</div>
+											<div id="collapse-five" class="panel-collapse collapse box" role="tabpanel">
+												<div class="panel-body">
+													<p class="text-uppercase text-capitalize">I can use bootstrap grid system and bootstrap components to meet my style needs.</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4">	
+										<div  class="panel panel-default" role="tablist">
+											<div class="panel-heading" role="tab" id="heading-six">
+												<h4 class="panel-title">
+													<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-six" aria-expanded="false" aria-controls="collapse-six">
+														Image Optmization
+													</a>
+												</h4>
+											</div>
+											<div id="collapse-six" class="panel-collapse collapse box" role="tabpanel">
+												<div class="panel-body">
+													<p class="text-uppercase text-capitalize">I can make a an image responisive for different screen-sizes and slow-internet connictions.</p>
+												</div>
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>  
 						</div>
@@ -144,36 +143,38 @@
 				 </section>
 			  </div>
 			  <div class="row">
-				  <h3 id="projects-header">My Projects</h3>
+				  <h3 id="projects-header" class="headr-h">My Projects</h3>
 				  <div id="course-projects-div" class="">
 					  <div id="Animal-trading" class="col-xs-4 p1">
 						  <a href="https://github.com/nasserfj58/Animal_Trading_Card.git"><img class="projects-img" alt="github logo" src="img/github-logo.svg"> </a>
 						  <div class="p1">
-						  <p> Animal Trading</p>
+						  	<p> Animal Trading</p>
 						  </div>
 					  </div>
-					  <div id="Protfilio p1" class="col-xs-4">
+					  <div id="protfilio-p1" class="col-xs-4">
 						  <a href="https://github.com/nasserfj58/Protfilio-Project.git">
 							  <img class="projects-img" alt="github logo" src="img/github-logo.svg"></a>
 						  <div class="p1">
-						  <p>Protfilio</p>
+						  	<p>Protfilio</p>
 						  </div>	  
-						  
 					  </div>
 					  <div  class="col-xs-4 p1">
 						  <img id="Resume" class="projects-img" alt="github logo" src="img/github-logo.svg">
 						  <div class="p1">
-						  <p>Resume</p>
+						  	<p>Resume</p>
 						  </div>  
 					  </div>
 				  </div>
 			  </div>
 			  <div class="row">
 			  <footer>
-				  <div class="">Computer Icon by <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
-				  <div class="">Gitub icon by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
-				  <div class="">Jpeg img by Blossomstar/<a href="http://www.freepik.com">Freepik</a></div>
-				  </footer>
+				  <div class="copy-rights">
+					  Computer Icon by <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+				  </div>
+				  <div class="">Gitub icon by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+				  </div>
+				  <div class="copy-rights">Jpeg img by Blossomstar/<a href="http://www.freepik.com">Freepik</a></div>
+			  </footer>
 			</div>
 		</div>
 		<script>

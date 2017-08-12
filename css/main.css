@@ -1,52 +1,58 @@
-.headr-h{
-	font-family: 'Josefin Sans', sans-serif;
 
+.headr-h {
+	font-family: "Josefin Sans","sans-serif";
 }
-#my-projects-div{
+
+#my-projects-div {
 	margin: 0 auto;
-	width: 100%;
-	
+	width: 100%;	
 }
-.projects-img{
+
+.projects-img {
 	width:100%;
 	height: 20vh;
 	align-content:left;
 }
+
 .p1{
 	width: 100%;
-	text-align:center;
-	
+	text-align:center;	
 }
-footer{
+
+footer {
 	padding: 5px;
 	font-size: 11px;
 }
-#icon{
+
+#icon {
 	width:10vw;
 }
-#logo{
+
+#logo {
 	align-content:left;
 }
-#projects-header{
+
+#projects-header {
 	text-align: center;
 }
-#my-info{
+
+#my-info {
 	text-align: right;
-	
 }
-#web-img{
-height: 68vh;
-width: 100%;
-		
+
+#web-img {
+width: 100%;		
 }
-.box{
+
+.box {
 	display: block;
 	height: 20vh;
 }
 
-hr.style1{
+#style1 {
 	border-top: 1px solid #8c8b8b;
 }
+
 body {
   font-size: 30px;
   font-family: 'Indie Flower', cursive;
@@ -54,23 +60,8 @@ body {
   width: 100%;
   margin: 0 auto;
 }
-#container{
+
+#container {
 	font-size: 15px;
 }
-@media only screen and (min-width:200px) and (max-width: 220px) {
-	#icon{
-		width: 70%;
-		
-	}
-	#web-img{
-		height: 70vh;
-		width: 50wh;	
-}
-#headr-h-h1{
-	width: 70%;
-}
-#headr-h-h2{
-	width: 70%;
-}	
 
-}
